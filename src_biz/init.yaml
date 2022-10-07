@@ -1,0 +1,9 @@
+WEB_APP_DIR :
+  DEFAULT : "C:/Users/hyunjin/IdeaProjects/service-on-framework/web"
+TEMP_DIR :
+  DEFAULT : "C:/Users/hyunjin/IdeaProjects/service-on-framework/temp"
+WEB_PORT :
+  DEFAULT : "18080"
+
+CHARACTER_SET :
+  DEFAULT : "UTF-8"
