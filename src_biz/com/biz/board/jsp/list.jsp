@@ -1,7 +1,10 @@
+<%@ page import="com.fw.data.Box" %>
+<%@ page import="com.fw.web.BoxContext" %>
 <%@ page contentType="text/html; charset=UTF-8"%>
 <%
-    String findStr = request.getParameter("findStr");
-    String exeWriteResult = (String) request.getAttribute("exeWriteResult");
+    Box box = BoxContext.get();
+    String list = (String)box.get("list");
+    String exeWriteResult = (String) box.get("exeWriteResult");
 %>
 <html>
   <head>
@@ -10,7 +13,7 @@
 
       list.jsp
 
-      findStr : <%=findStr%>
+      list : <%=list%>
 
       exeWriteResult : <%=exeWriteResult%>
 
